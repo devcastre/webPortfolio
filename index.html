@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castre Portfolio</title>
+
+    <link rel="stylesheet" href="myPortfolio.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script defer src="myPortfolio.js"></script>
+
+    
+    
+
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">
+            <h2 id="logo">CASTRE</h2>
+        </div>
+
+        <div class="menu">
+            <input type="checkbox" id="toggle" class="hmenu">
+            <label for="toggle" class="open">☰</label>
+            
+            <div class="menu-overlay">
+                <div class="menu-content">
+                    <label for="toggle" class="close">X</label>
+                    <ul id="moblist">
+                        <li><a href="#welcome-section" class="nav-link">HOME</a></li>
+                        <li><a href="#about" class="nav-link">ABOUT ME</a></li>
+                        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                        <li><a href="#contacts" class="nav-link">CONTACTS</a></li>      
+                    </ul>    
+                </div>
+            </div>
+        </div>
+
+        <ul id="desklist">
+            <li><a href="#welcome-section" class="nav-link">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT ME</a></li>
+            <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+            <li><a href="#contacts" class="nav-link">CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    
+    
+    <section id="welcome-section">
+        <div id="greet">
+            <h1>Hello I'm</h1>
+            <span id="myname">
+                <span><span class="highlights">CAST</span>ILLO</span>
+                <span><span class="highlights">RE</span>NATO </span>
+                
+            </span>
+            <p>Web Designer / CAD Drafter</p>
+        </div>
+        
+    </section>
+
+
+
+    <section id="about">
+        <div class="content-container">
+            <h1 class="secheader animFade">ABOUT ME</h1>
+            <div id="bio" class="bulg-animation">
+
+                    <p class="intro">    Dedicated career shifter with a solid foundation in engineering and a strong passion for the tech industry. Continuously upskilling to stay current with emerging technologies, while expanding my expertise to contribute to innovative solutions. Eager to apply my analytical problem-solving skills, technical knowledge, and adaptability to diverse roles within the engineering and tech sectors."</p>
+                    
+                    
+                    <a href="docs/resume.pdf" download="Renato_Castillo_Resume.pdf">
+                        <button id="resume">View My Full Resume</button>
+                    </a>      
+            </div>  
+        </div>
+
+        <div class="content-container">
+            <h1 class="secheader animFade">SKILL SET</h1>
+            <div id="skillcont">
+                <div class="offercont indent-animation">
+                    <img src="/Icons/ui-ux.png" alt="uiux" class="skills">
+                    <h6 class="offers">UI/UX DESIGN</h6>
+                </div>
+                <div class="offercont indent-animation">
+                    <img src="/Icons/drafting.png" alt="draft" class="skills">
+                    <h6 class="offers">CAD DRAFTING</h6>
+                </div>
+                <div class="offercont indent-animation">
+                    <img src="/Icons/coding.png" alt="code" class="skills">
+                    <h6 class="offers">WEB DESIGN</h6>
+                </div>        
+            </div>  
+        </div>
+        
+        
+        <div class="content-container">
+            <h1 class="secheader animFade">SOFTWARE TOOLS</h1>
+            <div id="softcont">
+                <div class="toolcont animFade">
+                    
+                    <h6 class="toolname">FIGMA</h6>
+                    <div class="toolcircle"><img src="/Icons/figma.png" alt="figma" class="soft"></div>
+                    
+                    
+                </div>
+                <div class="toolcont animFade">
+
+                    <h6 class="toolname">AUTOCAD</h6>
+                    <div class="toolcircle"><img src="/Icons/autocad.png" alt="autocad" class="soft"></div>
+                    
+                    
+                </div>
+                <div class="toolcont animFade">
+
+                    <h6 class="toolname">HTML</h6>
+                    <div class="toolcircle"><img src="/Icons/html.png" alt="html" class="soft"></div>
+                    
+                    
+                </div>
+                <div class="toolcont animFade">
+
+                    <h6 class="toolname">CSS</h6>
+                    <div class="toolcircle"><img src="/Icons/css.png" alt="css" class="soft"></div>
+                    
+                    
+                </div>
+                <div class="toolcont animFade">
+
+                    <h6 class="toolname">JAVASCRIPT</h6>
+                    <div class="toolcircle"><img src="/Icons/js.png" alt="javascript" class="soft"></div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <section id="projects">
+        <div class="content-container">
+            <h1 class="secheader animFade">PROJECTS</h1>
+            <div id="projectSection">
+                <div class="projectContainer animLslide">
+                    <div class="project figma">
+                        <img src="/portfolio img/neoterra.png" alt="Project Thumbnail" class="projectThumbnail">
+                        <video class="animated-video" loop muted playsinline>
+                            <source src="/portfolio vid/neoterra.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h4 class="projectLabel">Neoterra - Real Estate</h4>
+                    <div class="tags">
+                        <div class="tag">Responsive</div>
+                        <div class="tag">Figma</div>
+                        <div class="tag">Landing Page</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+                <div class="projectContainer animRslide">
+                    <div class="project figma">
+                        <img src="/portfolio img/bud.png" alt="Project Thumbnail" class="projectThumbnail">
+                        <video class="animated-video" loop muted playsinline>
+                            <source src="/portfolio vid/bud.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h4 class="projectLabel">Bud - ChatBot</h4>
+                    <div class="tags">
+                        <div class="tag">Responsive</div>
+                        <div class="tag">Figma</div>
+                        <div class="tag">Landing Page</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+                <div class="projectContainer animLslide">
+                    <div class="project figma">
+                        <img src="/portfolio img/pianote.png" alt="Project Thumbnail" class="projectThumbnail">
+                        <video class="animated-video" loop muted playsinline>
+                            <source src="/portfolio vid/pianote.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h4 class="projectLabel">PiaNote - Piano Shop</h4>
+                    <div class="tags">
+                        <div class="tag">Responsive</div>
+                        <div class="tag">Figma</div>
+                        <div class="tag">Landing Page</div>
+                        <div class="tag">UI/UX</div>
+                    </div>
+                </div>
+
+                <div class="projectContainer animRslide">
+                    <div class="project figma">
+                        <img src="/portfolio img/cafebaraapp.png" alt="Project Thumbnail" class="projectThumbnail">
+                        <video class="animated-video" loop muted playsinline>
+                            <source src="/portfolio vid/cafebaraapp.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <h4 class="projectLabel">CapeBara - Coffee Shop</h4>
+                    <div class="tags">
+                        <div class="tag">Mobile Responsive</div>
+                        <div class="tag">Figma</div>
+                        <div class="tag">UI/UX</div>
+                        <div class="tag">Mobile App</div>
+                    </div>
+                </div>
+
+
+                <div class="projectContainer animLslide">
+                    <div class="project CAD">
+                        <img src="/portfolio img/Pandesalan.png" alt="Project Thumbnail" class="projectThumbnail">
+                    </div>
+                    <h4 class="projectLabel">Pandesalan - Bread Shop</h4>
+                    <div class="tags">
+                        <div class="tag">2D Floor Plan</div>
+                        <div class="tag">Water-line Layout</div>
+                        <div class="tag">Lightning/ Power Layout</div>
+                        <div class="tag">3D Model</div>
+                        
+                    </div>
+                </div>
+                <div class="projectContainer animRslide">
+                    <div class="project CAD">
+                        <img src="/portfolio img/3d lounge.png" alt="Project Thumbnail" class="projectThumbnail">
+                    </div>
+                    <h4 class="projectLabel">3D Lounge</h4>
+                    <div class="tags">
+                        <div class="tag">AutoCAD</div>
+                        <div class="tag">Furnitures</div>
+                        <div class="tag">3D Model</div>
+                        
+                    </div>
+                </div>
+                <div class="projectContainer animLslide">
+                    <div class="project CAD">
+                        <img src="/portfolio img/Marine Vessels.png" alt="Project Thumbnail" class="projectThumbnail">
+                    </div>
+                    <h4 class="projectLabel">Marine Vessels</h4>
+                    <div class="tags">
+                        <div class="tag">Shell Expansion</div>
+                        <div class="tag">CAR DECK</div>
+                        <div class="tag">Sea-chest</div>
+                        <div class="tag">Complete Blueprint</div>
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+        
+    </section>
+
+
+
+    <section id="contacts">
+        <div class="content-container">
+            <h1 class="secheader animFade">GET IN TOUCH</h1>
+
+            <form action="https://formspree.io/f/manyqljp" id="form" method="POST" class="indent-animation">
+                <input class="forminput" type="text" name="name" placeholder="Name :" autocomplete="off" required>
+                <input class="forminput" type="email" name="email" placeholder="Email :" autocomplete="off" required>
+                <textarea row="5" name="message" id="message" placeholder="Input your message ..."></textarea>
+                <button id="submitbtn" type="submit">SUBMIT</button>
+            </form>
+
+           
+            <div id="socmed" class="anim1">
+                <a href="https://www.tiktok.com/@castre66" class="contact-me"  target="_blank" title="tiktok">
+                    <img src="/Icons/tiktok.png" alt="" class="socmedicon">
+                </a>
+    
+                <a href="https://www.facebook.com/natsu.nogako/" class="contact-me"  target="_blank">
+                    <img src="/Icons/fb.png" alt="" class="socmedicon">
+                </a>
+    
+                <a href="https://www.linkedin.com/in/renato-castillo-68401927b/" class="contact-me"  target="_blank">
+                    <img src="/Icons/linkedin.png" alt="" class="socmedicon">
+                </a>
+    
+                <a href="https://github.com/devcastre" class="contact-me"  target="_blank">
+                    <img src="/Icons/github.png" alt="" class="socmedicon">
+                </a>
+            </div>
+ 
+        </div>
+        
+    </section>
+
+
+</body>
+
+
+
+</html>
