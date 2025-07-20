@@ -94,18 +94,3 @@ window.onload = function () {
 
 
 
-//project hover
-
-document.querySelectorAll(".project").forEach(project => {
-    const video = project.querySelector(".animated-video");
-
-    project.addEventListener("mouseenter", () => {
-        video.play();
-    });
-
-    project.addEventListener("mouseleave", () => {
-        video.pause();
-        video.currentTime = 0;
-    });
-});
-
