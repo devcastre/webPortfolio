@@ -34,6 +34,11 @@ body{
     flex-direction: column;
 }
 
+section{
+    height: fit-content;
+}
+
+
 
 /* Nav */
 
@@ -314,7 +319,7 @@ canvas{
 
 .content-container{
     width: 100%;
-    height: auto;
+    height: fit-content;
     padding: 125px 100px;
     display: flex;
     flex-direction: column;
@@ -709,15 +714,17 @@ canvas{
 #projectSection{
     display: grid;
     grid-template-columns: repeat(2, auto);
+    height: fit-content;
     gap: 50px;
 }
 
 .projectContainer{
     display: flex;
     flex-direction: column;
-    height: 430px;
+    height: 500px;
     width: 430px;
     gap: 20px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
     
     
 }
@@ -725,7 +732,9 @@ canvas{
 .project {
     position: relative;
     width: 100%; 
-    height: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -734,13 +743,12 @@ canvas{
     height: 100%;
     position: absolute;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 15px;
-    padding: 10px;
 }
 
 .projectLabel{
     height: 20px;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
 }
 
 
@@ -753,7 +761,7 @@ canvas{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
+    padding: 10px;
     gap: 10px;
 }
 
@@ -768,6 +776,7 @@ canvas{
     
 }
 
+
 @media only screen and (max-width: 990px){
 
 .projectContainer{
@@ -780,8 +789,6 @@ canvas{
     
 }
 
-    
-
 }
 
 
@@ -790,8 +797,17 @@ canvas{
 #projectSection {
     display: grid;
     grid-template-columns: repeat(1, auto);
+    height: fit-content;
     gap: 50px;
 
+}
+
+.projectContainer{
+    max-height: 400px;
+}
+
+.tag{
+    font-size: 10px
 }
 
     
