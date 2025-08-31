@@ -1,8 +1,8 @@
+
+
 @font-face {
-    font-family: 'monad';
-    src: url('./fonts/monad.woff2') format('woff2'),
-         url('./fonts/monad.woff') format('woff'),
-/*         url('./fonts/monad.otf') format('opentype');*/
+  font-family: 'Monad';
+  src: url('./Fonts/Monad.woff2') format('woff2'),
 }
 
 
