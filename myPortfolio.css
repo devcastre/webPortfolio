@@ -443,8 +443,8 @@ canvas{
 
 #softcont{
     display: grid;
-    grid-template-columns: repeat(5, auto);
-    gap: 30px;
+    grid-template-columns: repeat(4, auto);
+    gap: 100px;
 }
 
 .toolcont{
