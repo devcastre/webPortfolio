@@ -21,7 +21,7 @@
     --shadow-color: #bababa;
     --text-color: #101010;
     --primary-color: #ffffff;
-    --secondary-color: #b20710;
+    --secondary-color: #ae070f;
 
 }
 
@@ -773,6 +773,8 @@ canvas{
     border: 2px solid var(--secondary-color);
     border-radius: 15px;
     text-align: center;
+    color: var(--primary-color);
+    background: var(--secondary-color);
     
 }
 
