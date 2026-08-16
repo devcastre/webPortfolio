@@ -1,6 +1,5 @@
 
 
-//hero section
 window.onload = function () {
     
     const scene = new THREE.Scene();
