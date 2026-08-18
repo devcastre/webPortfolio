@@ -418,7 +418,7 @@ canvas{
 #skillcont{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 100px;
+    gap: 80px;
 }
 
 .offercont{
@@ -495,11 +495,11 @@ canvas{
 
     .secheader{
         font-size: 34px;
-        padding: 60px;
+        padding: 75px;
     }
 
     .content-container{
-        padding: 50px 50px;
+        padding: 100px 50px;
     }
 
     #skillcont{
@@ -510,8 +510,8 @@ canvas{
 
 
     .offercont{
-        height: 290px;
-        width: 240px;
+        height: 270px;
+        width: 220px;
     }
     
     .skills{
@@ -551,7 +551,7 @@ canvas{
 
     .secheader{
         font-size: 32px;
-        padding: 50px;
+        padding: 70px;
         text-align: center;
     }
     .content-container{
@@ -574,13 +574,17 @@ canvas{
     }
 
     .offercont{
-        height: 290px;
-        width: 240px;
+        height: 260px;
+        width: 200px;
     }
     
     .skills{
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .offers{
+        font-size: 16px;
     }
 
     #softcont{
@@ -609,11 +613,11 @@ canvas{
 
     .secheader{
         font-size: 32px;
-        padding: 40px;
+        padding: 60px;
         text-align: center;
     }
     .content-container{
-        padding: 25px 30px;
+        padding: 75px 30px;
     }
 
     #bio{
@@ -627,18 +631,22 @@ canvas{
 
     #skillcont{
         display: grid;
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(2, auto);
         gap: 20px;
     }
 
     .offercont{
-        height: 290px;
-        width: 240px;
+        height: 230px;
+        width: 170px;
     }
     
     .skills{
-        height: 90px;
-        width: 90px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .offers{
+        font-size: 16px;
     }
 
     #softcont{
@@ -677,11 +685,11 @@ canvas{
 
     .secheader{
         font-size: 28px;
-        padding: 30px;
+        padding: 50px;
         text-align: center;
     }
     .content-container{
-        padding: 20px 30px;
+        padding: 50px 30px;
     }
 
     #bio{
@@ -694,18 +702,22 @@ canvas{
 
     #skillcont{
         display: grid;
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(2, auto);
         gap: 20px;
     }
 
     .offercont{
-        height: 290px;
-        width: 240px;
+        height: 210px;
+        width: 150px;
     }
     
     .skills{
-        height: 90px;
-        width: 90px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .offers{
+        font-size: 14px;
     }
 
     #softcont{
