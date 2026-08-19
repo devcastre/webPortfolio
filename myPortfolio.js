@@ -90,6 +90,40 @@ window.onload = function () {
 
 
 
+form.addEventListener('submit', function (e) {
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const message = form.message.value.trim();
+
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  if (!name || name.length > 50) {
+    e.preventDefault();
+    alert('Please enter a valid name.');
+    return;
+  }
+  if (!emailPattern.test(email)) {
+    e.preventDefault();
+    alert('Please enter a valid email address.');
+    return;
+  }
+  if (!message || message.length > 2000) {
+    e.preventDefault();
+    alert('Message must be between 1 and 2000 characters.');
+    return;
+  }
+});
 
 
+
+let lastSubmit = 0;
+form.addEventListener('submit', function (e) {
+  const now = Date.now();
+  if (now - lastSubmit < 10000) {
+    e.preventDefault();
+    alert('Please wait a few seconds before submitting again.');
+    return;
+  }
+  lastSubmit = now;
+});
 
